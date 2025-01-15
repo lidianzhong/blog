@@ -1,17 +1,16 @@
 ---
-title: "中断及外部设备操作"
-published: 2024-06-15
-lastmod: 2024-06-15
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
+title: "8086中的中断及外部设备操作"
+published: 2024-04-15
 description: ""
-weight:
-
+image: ''
+category: "笔记"
+tags: ["汇编"]
 draft: false # 是否为草稿
+lang: ''
+
+
+weight:
+lastmod: 2024-04-15
 comments: true # 本页面是否显示评论
 reward: false # 打赏
 mermaid: true #是否开启mermaid
@@ -28,19 +27,7 @@ cover:
   relative: false
 ---
 
-# 中断及外部设备操作
 
-直接定址表、内中断、端口及外设控制
-
-## 移位指令
-
-逻辑左移 SHL、循环左移 ROL、逻辑右移 SHR、循环右移 ROR、算术左移 SAL、算术右移 SAR、带进位循环左移 RCL、带进位循环右移 RCR
-
-S，SH-shift L-left R-Right A-Arithmetic R,RO-Rotate C-Carry
-
-## 数据标号
-
-数据标号相对于地址标号没有冒号，它标记了存储数据的单元的地址和长度
 
 ## 直接定址表
 
@@ -78,6 +65,8 @@ CPU 可以直接读写的 3 个地方的数据
 这个芯片包含一个实时钟和一个有 128 个存储单元的 RAM 存储器。这个芯片的作用是存储内部一个实时钟、系统的配置信息、相关的程序（用于开机时配置系统信息）。
 
 CMOS RAM 芯片内部有两个端口，端口地址为 70h 和 71h，70h 为地址端口，存放要访问的 CMOS RAM 单元的地址；71h 为数据端口，存放从选定的单元中读取的数据，或要写入到其中的数据。
+
+
 
 ## 外中断处理过程
 

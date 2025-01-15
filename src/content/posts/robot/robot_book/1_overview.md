@@ -1,8 +1,8 @@
 ---
-title: 四足机器人概述
+title: 《四足机器人控制算法》阅读笔记——四足机器人概述
 published: 2024-04-02
-tags: [robot, overview]
-category: Examples
+tags: ["阅读笔记", "四足机器人"]
+category: "四足机器人"
 draft: false
 ---
 

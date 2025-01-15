@@ -2,14 +2,10 @@
 title: "Ubuntu 22.04 安装 ros1 noetic"
 published: 2024-04-30
 lastmod: 2024-04-30
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
+category: "四足机器人"
 tags: # 标签
-  - "123"
-  - ros
-description: ""
+  - ROS
+description: "Ubuntu 22.04 安装 ros1 noetic 的一次失败尝试"
 weight:
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论
@@ -28,7 +24,9 @@ cover:
   relative: false
 ---
 
-
+:::caution
+最后没有成功。建议不要使用这种方式，建议使用 docker 部署 ubuntu 20.04 来完成。下文作为笔记保留。
+:::
 
 ## 安装
 
@@ -54,58 +52,61 @@ source ~/ros_catkin_ws/install/setup.bash
 
 
 
-## 常见问题
+## 遇到的问题
 
-> rosdep update 报错，网络问题
+### rosdep update 报错，网络问题
 
 ![image-20240430044101740](ros_noetic_install_from_source/image-20240430044101740.png)
 
 原因：网络被墙，考虑使用 rosdepc 或者开 VPN 再尝试
 
+---
 
-
-> `vcs import --input noetic-desktop.rosinstall ./src` 命令会很慢，且报错
+### `vcs import --input noetic-desktop.rosinstall ./src` 命令会很慢，且报错
 
 ![image-20240430045305375](ros_noetic_install_from_source/image-20240430045305375.png)
 
 原因：依然是网络被墙，方法同上
 
+---
 
 
-
-> ROS包编译报错 No module named catkin_pkg.package
+### No module named catkin_pkg.package
 
 [ROS包编译报错 No module named catkin_pkg.package_no module named 'catkin_pkg.package-CSDN博客](https://blog.csdn.net/qq_39779233/article/details/107446258)
 
+---
 
 
-> error: option --install-layout not recognized
+### error: option --install-layout not recognized
 
 [error: option --install-layout not recognized，在编译的时候出问题报错-CSDN博客](https://blog.csdn.net/pvmsmfchcs/article/details/128655947)
 
+---
 
+### Poco was not found.  
 
-> Poco was not found.  Set the Poco_INCLUDE_DIR cmake cache entry to the
->   top-level directory containing the poco include directories.
+`Poco was not found.  Set the Poco_INCLUDE_DIR cmake cache entry to the top-level directory containing the poco include directories.`
 
 ``` bash
 sudo apt install libpoco-dev
 ```
 
+---
 
-
-> rosconsole: Error when compiling with log4cxx
+### rosconsole: Error when compiling with log4cxx
 
 https://github.com/ros/rosconsole/pull/54
 
+---
 
+### qt_gui_cpp:  The detected Python minor version is not compatible
+The detected Python minor version is not compatible with the Python minor
+version which was used when Shiboken was built. 
 
-> qt_gui_cpp:  The detected Python minor version is not compatible with the Python minor
->   version which was used when Shiboken was built. 
->
-> Consider building shiboken
->   with FORCE_LIMITED_API set to '1', so that only the Python major version
->   matters.
+ Consider building shiboken
+   with FORCE_LIMITED_API set to '1', so that only the Python major version
+   matters.
 
 ![image-20240430053951854](ros_noetic_install_from_source/image-20240430053951854.png)
 
@@ -114,12 +115,12 @@ https://github.com/ros/rosconsole/pull/54
 https://forum.freecad.org/viewtopic.php?t=45081
 
 
+---
 
 
-
-> <== Failed to process package 'qt_gui_cpp':
->   Command '['/home/dz/ros_catkin_ws/install_isolated/env.sh', 'make', '-j12', '-l12']' returned non-zero exit status 2.
-
+### Failed to process package 'qt_gui_cpp'
+Failed to process package 'qt_gui_cpp':
+   Command '['/home/dz/ros_catkin_ws/install_isolated/env.sh', 'make', '-j12', '-l12']' returned non-zero exit status 2.
 
 
 didn't work:
@@ -132,9 +133,9 @@ didn't work:
    sudo apt-get install sip-dev pyqt5-dev python-sip-dev pyqt5-dev-tools
    ```
 
-   
+---
 
->  No module named sipconfig
+###   No module named sipconfig
 
 解决：跳过这个包的构建。。。
 
@@ -149,5 +150,3 @@ https://stackoverflow.com/questions/11841962/cant-configure-pyqt
 
 
 全是 BUG ！！！，想起来还有 docker😆😆😆
-
-> 提示：最后没有成功。建议不要使用这种方式，使用 docker 部署 ubuntu 20.04 来完成

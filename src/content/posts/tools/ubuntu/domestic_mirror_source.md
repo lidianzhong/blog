@@ -4,11 +4,9 @@ published: 2024-04-16T01:20:57+08:00
 lastmod: 2024-04-16T01:20:57+08:00
 keywords:
   -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
-# description: "Ubuntu 常用命令汇总"
+category: "工具"
+tags: ["Ubuntu", "命令"]
+description: "包含了 Ubuntu apt源、pip 源、docker 源、conda 源、npm 源"
 weight: 10
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论

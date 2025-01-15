@@ -1,14 +1,11 @@
 ---
-title: "异常和中断处理"
+title: "异常和中断处理的基本知识"
 published: 2024-06-19
 lastmod: 2024-06-19
-keywords:
-  - 计组
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
-# description: "Ubuntu 常用命令汇总"
+category: "笔记"
+tags: ["计组"]
+description: "简单介绍了异常和中断的概念"
+
 weight: 10
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论

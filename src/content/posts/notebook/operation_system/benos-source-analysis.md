@@ -1,16 +1,12 @@
 ---
-title: "Benos 源码分析"
+title: "Benos 小型操作系统总概"
 published: 2025-01-05T23:20:19+08:00
 lastmod: 2025-01-05T23:20:19+08:00
-keywords: 
-- 
-categories: # 没有分类界面可以不填写
-- 
+category: "笔记"
 tags: # 标签
-  - "123"
   - RISC-V
   - 操作系统
-description: ""
+description: "BenOS是一个用于学习目的的操作系统。从上电到启动经历了什么，以及进程创建、调度管理等内容"
 weight:
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论

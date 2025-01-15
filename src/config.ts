@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from './types/config'
 
 export const siteConfig: SiteConfig = {
-  title: 'Fuwari',
-  subtitle: 'Demo Site',
+  title: 'Dawn Journey',
+  subtitle: 'Dawn Journey Site',
   lang: 'zh_CN',         // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th' 语言选项
   themeColor: {
     hue: 250,         // 主题颜色的默认色调，从0到360。例如：红色: 0，青色: 200，蓝绿色: 250，粉色: 345
@@ -42,35 +42,35 @@ export const navBarConfig: NavBarConfig = {
     LinkPreset.Home,
     LinkPreset.Archive,
     LinkPreset.About,
-    {
-      name: 'GitHub',
-      url: 'https://github.com/saicaca/fuwari',     // 内部链接不应包含基础路径，因为它会自动添加
-      external: true,                               // 显示外部链接图标并将在新标签页中打开
-    },
+    // {
+    //   name: 'GitHub',
+    //   url: 'https://github.com/lidianzhong',     // 内部链接不应包含基础路径，因为它会自动添加
+    //   external: true,                               // 显示外部链接图标并将在新标签页中打开
+    // },
   ],
 }
 
 export const profileConfig: ProfileConfig = {
-  avatar: 'assets/images/demo-avatar.png',  // 相对于/src目录。如果以'/'开头，则相对于/public目录
-  name: 'Lorem Ipsum',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  avatar: 'assets/images/avatar.png',  // 相对于/src目录。如果以'/'开头，则相对于/public目录
+  name: 'Dawn Journey',
+  bio: 'In the faint light of dawn, we set out on a splendid journey.',
   links: [
-    {
-      name: 'Twitter',
-      icon: 'fa6-brands:twitter',       // 访问https://icones.js.org/获取图标代码
-                                        // 如果尚未包含相应的图标集，你需要安装它
-                                        // `pnpm add @iconify-json/<icon-set-name>`
-      url: 'https://twitter.com',
-    },
-    {
-      name: 'Steam',
-      icon: 'fa6-brands:steam',
-      url: 'https://store.steampowered.com',
-    },
+    // {
+    //   name: 'Twitter',
+    //   icon: 'fa6-brands:twitter',       // 访问https://icones.js.org/获取图标代码
+    //                                     // 如果尚未包含相应的图标集，你需要安装它
+    //                                     // `pnpm add @iconify-json/<icon-set-name>`
+    //   url: 'https://twitter.com',
+    // },
+    // {
+    //   name: 'Steam',
+    //   icon: 'fa6-brands:steam',
+    //   url: 'https://store.steampowered.com',
+    // },
     {
       name: 'GitHub',
       icon: 'fa6-brands:github',
-      url: 'https://github.com/saicaca/fuwari',
+      url: 'https://github.com/lidianzhong',
     },
   ],
 }

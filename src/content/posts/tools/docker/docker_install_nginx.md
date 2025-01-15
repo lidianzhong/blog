@@ -1,14 +1,11 @@
 ---
-title: "Docker 安装 Nginx"
+title: "在 Docker 中安装 Nginx"
 published: 2024-04-27T00:41:17+08:00
 lastmod: 2024-04-27T00:41:17+08:00
 keywords:
   -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
-  - Install
+category: "工具"
+tags: ["Docker", "安装", "BUG"]
 description: ""
 weight:
 draft: true # 是否为草稿
@@ -30,16 +27,22 @@ cover:
 
 </br>
 
-#### 大致流程
+### 大致流程
 
 思路：先运行一个容器，得到生成的挂载文件，然后删除这个容器，再次创建一个新容器，使用这些挂载文件即可。
 
 在过程中，需要注意文件的挂载关系，以下的外链需要稍作修改才可以（修改挂载映射部分）
 
-</br>
 
-#### 参考指南
+### 参考指南
 
 [Windows 环境下 Docker Desktop 安装 Nginx_dockerdesktop 搭建 nigix-CSDN 博客](https://blog.csdn.net/weixin_45876462/article/details/128273148)
 
 [Linux 环境下 Docker 安装 Nginx 容器 (完整详细版)\_docker nginx-CSDN 博客](https://blog.csdn.net/BThinker/article/details/123507820)
+
+### 遇到的问题
+
+#### nginx 一直跳转 welcome to nginx
+
+[nginx配置不生效，页面一直是默认页面welcome to nginx的解决办法_welcome to nginx怎么解决-CSDN博客](https://blog.csdn.net/pcf1995/article/details/80973600)
+

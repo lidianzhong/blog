@@ -4,10 +4,8 @@ published: 2024-04-22T02:15:05+08:00
 lastmod: 2024-04-22T02:15:05+08:00
 keywords:
   -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
+category: "工具"
+tags: ["Ubuntu", "BUG"]
 description: ""
 weight:
 draft: false # 是否为草稿

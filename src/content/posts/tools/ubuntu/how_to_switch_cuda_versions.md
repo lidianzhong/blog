@@ -1,15 +1,11 @@
 ---
-title: "切换 CUDA 的版本"
+title: "如何切换 CUDA 的版本"
 published: 2024-04-19T16:56:28+08:00
 lastmod: 2024-04-19T16:56:28+08:00
 keywords: 
 - 
-categories: # 没有分类界面可以不填写
-- 
-tags: # 标签
-- GPU
-- CUDA
-- Ubuntu
+category: "工具"
+tags: ["GPU", "Ubuntu"]
 description: ""
 weight:
 draft: false # 是否为草稿

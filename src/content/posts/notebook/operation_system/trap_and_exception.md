@@ -2,15 +2,11 @@
 title: "RISC-V 中断和异常"
 published: 2024-12-31T04:01:51+08:00
 lastmod: 2024-12-31T04:01:51+08:00
-keywords: 
-- 
-categories: # 没有分类界面可以不填写
-- 
+category: "笔记"
 tags: # 标签
-  - "123"
   - RISC-V
   - 操作系统
-description: ""
+description: "介绍 RISC-V 中 trap 步骤涉及到的寄存器和 trap 的处理过程"
 weight:
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论

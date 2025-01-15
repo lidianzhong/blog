@@ -1,15 +1,13 @@
 ---
-title: "ptrace 软件调试原理"
+title: "ptrace 软件调试"
 published: 2025-01-03T03:23:54+08:00
 lastmod: 2025-01-03T03:23:54+08:00
 keywords: 
 - 
-categories: # 没有分类界面可以不填写
-- 
+category: "笔记"
 tags: # 标签
-  - "123"
   - 操作系统
-description: ""
+description: "介绍 ptrace 系统调用函数是如何实现的，并简单介绍 GDB 调试原理"
 weight:
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论

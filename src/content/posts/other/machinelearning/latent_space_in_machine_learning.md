@@ -1,14 +1,12 @@
 ---
-title: "机器学习中的潜变量"
+title: "机器学习中潜变量的概念"
 published: 2024-04-20T12:55:44+08:00
 lastmod: 2024-04-20T12:55:44+08:00
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
-description: ""
+category: "随笔"
+tags: ["机器学习"]
+description: "什么是潜变量，对机器学习中数据降维的思考"
+
+
 weight:
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论

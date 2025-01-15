@@ -1,13 +1,9 @@
 ---
-title: "Docker_problem"
+title: "在使用 Docker 中遇到的问题汇总"
 published: 2024-04-28T03:40:16+08:00
 lastmod: 2024-04-28T03:40:16+08:00
-keywords: 
-- 
-categories: # 没有分类界面可以不填写
-- 
-tags: # 标签
-- "123"
+category: "工具"
+tags: ["Docker", "BUG"]
 description: ""
 weight:
 draft: true # 是否为草稿
@@ -51,14 +47,8 @@ docker tag old-repo/my-image:1.0 new-repo/my-image:1.0
 
 参考：[解决docker：denied: requested access to the resource is denied_docker login': denied:-CSDN博客](https://blog.csdn.net/fengpengfei_yes/article/details/113838579)
 
+---
 
-
-> nginx 一直跳转 welcome to nginx
-
-[nginx配置不生效，页面一直是默认页面welcome to nginx的解决办法_welcome to nginx怎么解决-CSDN博客](https://blog.csdn.net/pcf1995/article/details/80973600)
-
-
-
-> 拉取时太慢
+> Docker 拉取时太慢
 
 [配置 docker 加速服务-阿里云开发者社区 (aliyun.com)](https://developer.aliyun.com/article/929177)

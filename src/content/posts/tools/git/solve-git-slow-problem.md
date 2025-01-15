@@ -2,9 +2,8 @@
 title: "解决Git同步访问慢的问题"
 published: 2024-04-01T01:09:33+08:00
 draft: false
-tags:
-  - "Git"
-  - "BUG"
+tags: ["Git", "BUG"]
+category: "工具"
 hidemeta: false
 ---
 

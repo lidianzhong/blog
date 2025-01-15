@@ -1,16 +1,14 @@
 ---
-title: "RISC-V 汇编语言编程"
+title: "RISC-V 汇编语言编程指令一览"
 published: 2024-12-28
 lastmod: 2024-12-28
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
+category: "笔记"
 tags: # 标签
-  - "123"
   - RISC-V
   - 操作系统
-description: ""
+description: "包含 RISC-V 中用到的指令，另外说明了大小端问题"
+# image: "risc-v_assembly_language_programming/RISC-V-logo.svg.png"
+
 weight: 10
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论
@@ -29,11 +27,11 @@ cover:
   relative: false
 ---
 
+![risc-v-logo](risc-v_assembly_language_programming/RISC-V-logo.svg.png)
 
+### 小端序 vs 大端序
 
-### 计算机存储方式（小端序 vs 大端序）
-
-Question：如何有一条以二进制/十六进制表示的指令数据，应该怎么翻译为对应的指令？
+:::note[如何有一条以二进制/十六进制表示的指令数据，应该怎么翻译为对应的指令？]
 
 ![image-20241228181508895](risc-v_assembly_language_programming/image-20241228181508895.png)
 
@@ -47,10 +45,7 @@ Question：如何有一条以二进制/十六进制表示的指令数据，应�
 
 倒过来读是因为计算机内存中的小端序需要反向排列字节，才能得到人类习惯的大端序数值。
 
-
----
-
-
+:::
 
 ### 算数运算指令
 

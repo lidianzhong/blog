@@ -1,21 +1,18 @@
 ---
-title: "第二章 逻辑代数基础"
+title: "逻辑代数基础"
 published: 2024-06-24
 lastmod: 2024-06-24
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
-# description: "Ubuntu 常用命令汇总"
+category: "笔记"
+tags: ["数字电路"]
+description: "包含基本的与、或、非计算和复合逻辑计算"
+
 weight: 20
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论
 reward: false # 打赏
 mermaid: true #是否开启mermaid
 showToc: true # 显示目录
-TocOpen: true# 自动展开目录
+TocOpen: true # 自动展开目录
 hidemeta: false # 是否隐藏文章的元信息，如发布日期、作者等
 disableShare: true # 底部不显示分享栏
 showbreadcrumbs: false #顶部显示路径

@@ -1,14 +1,11 @@
 ---
-title: "(Verilog)单周期 CPU 设计"
+title: "单周期 CPU 流程设计解读"
 published: 2024-06-19
 lastmod: 2024-06-19
-keywords:
-  - 计组
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
-# description: "Ubuntu 常用命令汇总"
+category: "笔记"
+tags: ["计组"]
+description: "介绍了 CPU 如何执行一条指令，对单周期 CPU 的流程的不同步骤进行了分析"
+
 weight: 10
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论

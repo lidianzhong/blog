@@ -1,15 +1,12 @@
 ---
-title: "概述"
+title: "什么是数字电路和EDA技术"
 published: 2024-06-24
 lastmod: 2024-06-24
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
-# description: "Ubuntu 常用命令汇总"
-weight: 10
+category: "笔记"
+tags: ["数字电路"]
+description: "数字电路和EDA技术是指什么，EDA技术有什么用"
+
+weight: 20
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论
 reward: false # 打赏

@@ -1,17 +1,12 @@
 ---
-title: "嵌入式常用命令汇总"
+title: "嵌入式常用命令总结"
 published: 2024-04-12T00:57:30+08:00
 lastmod: 2024-04-12T00:57:30+08:00
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
+category: "随笔"
+tags: ["嵌入式","命令"]
+description: "总结了嵌入式开发中所遇到的一些命令"
 
-description: ""
 weight:
-
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论
 reward: false # 打赏

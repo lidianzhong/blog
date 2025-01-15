@@ -1,9 +1,10 @@
 ---
-title: '机器人仿真与控制框架'
+title: '《四足机器人控制算法》阅读笔记——机器人仿真与控制框架'
 published: 2024-04-02
 draft: false
 weight: 30
-tags: ["robot", "simulation"]
+tags: ["阅读笔记", "四足机器人"]
+category: "四足机器人"
 ---
 
 ## ROS与Gazebo
@@ -80,7 +81,7 @@ LowlevelState *_lowState;	   // 从各个电机接收的状态
 
 阻尼模式的代码`src/FSM/State_Passive.cpp`：
 
-``` cp
+``` c
 void State_Passive::enter(){
     if(_ctrlComp->ctrlPlatform == CtrlPlatform::GAZEBO){
         for(int i=0; i<12; i++){

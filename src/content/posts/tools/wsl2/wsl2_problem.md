@@ -2,13 +2,8 @@
 title: "WSL 安装过程中出现的问题汇总"
 published: 2024-04-16T13:13:20+08:00
 lastmod: 2024-04-16T13:13:20+08:00
-author: ["Sulv"]
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
+category: "工具"
+tags: ["WSL", "BUG"]
 description: ""
 weight:
 

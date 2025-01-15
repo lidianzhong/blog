@@ -1,14 +1,11 @@
 ---
-title: "docker 中的一些快捷命令"
+title: "关于 docker 的命令总结"
 published: 2024-04-22T01:06:08+08:00
 lastmod: 2024-04-22T01:06:08+08:00
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
-description: ""
+category: "工具"
+tags: ["Docker", "命令"]
+description: "汇总使用 docker 时遇到的命令，并总结记录下来"
+
 weight:
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论

@@ -1,17 +1,16 @@
 ---
-title: "内存访问"
+title: "8086中使用指令访问内存"
 published: 2024-04-15T19:14:13+08:00
-lastmod: 2024-04-15T19:14:13+08:00
-keywords:
-  -
-categories: # 没有分类界面可以不填写
-  -
-tags: # 标签
-  - "123"
 description: ""
-weight:
-
+image: ''
+category: "笔记"
+tags: ["汇编"]
 draft: false # 是否为草稿
+lang: ''
+
+
+lastmod: 2024-04-15T19:14:13+08:00
+weight:
 comments: true # 本页面是否显示评论
 reward: false # 打赏
 mermaid: true #是否开启mermaid
