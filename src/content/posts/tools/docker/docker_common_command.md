@@ -24,6 +24,14 @@ cover:
   relative: false
 ---
 
+
+
+#### docker 替换镜像源
+
+[国内能用的Docker镜像源-CSDN](https://blog.csdn.net/u014390502/article/details/143472743)
+
+
+
 <br>
 
 #### 更新 apt 源
