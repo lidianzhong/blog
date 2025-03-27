@@ -4,7 +4,7 @@ published: 2025-03-25
 lastmod: 2025-03-25
 category: "算法"
 tags: ["算法", "Leetcode"]
-description: ""
+description: "给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target  的那两个整数，并返回它们的数组下标。"
 
 weight: 1
 draft: false # 是否为草稿
