@@ -6,7 +6,7 @@ category: "算法"
 tags: ["算法", "Leetcode"]
 description: '给你一个字符串数组，请你将"字母异位词"组合在一起。可以按任意顺序返回结果列表。'
 
-weight: 1
+weight: 49
 draft: false # 是否为草稿
 comments: true # 本页面是否显示评论
 reward: false # 打赏
